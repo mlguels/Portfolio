@@ -5,7 +5,7 @@ export const metadata = {
 };
 
 const Jobit = () => (
-	<div>Jobit Case Study</div>
+	<main>Jobit Case Study</main>
 );
 
 export default Jobit;

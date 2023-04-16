@@ -6,7 +6,7 @@ export const metadata = {
 
 export default function CarRent() {
 	return (
-		<div>CarRent Case Study</div>
+		<main>CarRent Case Study</main>
 	);
 }
 
