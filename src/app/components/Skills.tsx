@@ -8,7 +8,7 @@ import {AiOutlineHtml5, AiFillGithub} from 'react-icons/ai';
 const Skills = () => (
 	<main className='w-full lg:h-screen p-2'>
 		<section className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-			<p className='text-xl tracking-widest uppercase text-[#971616]'>Skills</p>
+			<p className='text-xl tracking-widest uppercase text-[#cbe1f4]'>Skills</p>
 			<h2 className='font-bold py-4'>What I can do</h2>
 			<div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 				<div>
