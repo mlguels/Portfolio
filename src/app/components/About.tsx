@@ -21,7 +21,7 @@ const About = () => (
             constantly learning and exploring new technologies to improve my craft.
 				</p>
 				<p className='py-2 text-gray-600 font-light'>
-            When I was seeking a business degree, I wasn't entirely sure
+            When seeking a business degree, I wasn't entirely sure
             where it would take me. However, when I began to code I realized that my
             true passion lay in the field of software engineering. Despite having no prior experience
             in coding, I was determine to learn and develop my skills. I started teaching myself
