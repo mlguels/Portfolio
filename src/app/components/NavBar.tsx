@@ -18,7 +18,7 @@ const NavBar = () => {
 				<nav className='fixed w-full h-20 shadow-xl z-[100]'>
 					<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 						<button className='hover:focus-visible: hover:opacity-30'>
-							<Image src='/assets/Logo.png' alt='Logo' width={80} height={20}/>
+							<Image src='/assets/LightModeLogo.png' alt='Logo' width={80} height={20}/>
 						</button>
 						<div>
 							<ul className='hidden md:flex'>
@@ -68,7 +68,7 @@ const NavBar = () => {
 									</Link>
 								</ul>
 								<div className='pt-40'>
-									<p className='tracking-widest text-sm text-[#971616]'>Contact Me</p>
+									<p className='tracking-widest text-sm text-[#cbe1f4]'>Contact Me</p>
 									<div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-200'>
 											<FaLinkedinIn />
@@ -77,7 +77,7 @@ const NavBar = () => {
 											<FaGithub />
 										</div>
 										<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-200'>
-											<AiOutlineMail />
+											<AiOutlineMail/>
 										</div>
 									</div>
 								</div>
