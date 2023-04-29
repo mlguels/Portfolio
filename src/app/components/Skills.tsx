@@ -6,7 +6,7 @@ import {IoLogoJavascript} from 'react-icons/io';
 import {AiOutlineHtml5, AiFillGithub} from 'react-icons/ai';
 
 const Skills = () => (
-	<main className='w-full lg:h-screen p-2'>
+	<main id='skills' className='w-full lg:h-screen p-2 bg-[#F5F5F5]'>
 		<section className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
 			<p className='text-xl tracking-widest uppercase text-[#cbe1f4]'>Skills</p>
 			<h2 className='font-bold py-4'>What I can do</h2>
