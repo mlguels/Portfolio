@@ -4,6 +4,9 @@ import Link from 'next/link';
 import React, {useEffect, useState} from 'react';
 import {AiOutlineMenu, AiOutlineArrowLeft, AiOutlineMail} from 'react-icons/ai';
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
+import LinkedIn from './LinkedIn';
+import Github from './Github';
+import Email from './Email';
 
 const NavBar = () => {
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -28,7 +31,7 @@ const NavBar = () => {
 	return (
 		<main>
 			<header>
-				<nav className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+				<nav style={{backgroundColor: 'white'}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
 					<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 						<button className='hover:focus-visible: hover:opacity-30'>
 							<Link href='/'>
@@ -69,12 +72,12 @@ const NavBar = () => {
 											setIsDrawerOpen(false);
 										}} className='hover:scale-125 duration-300' src='/assets/LightModeLogo.png' alt='Logo' width={70} height={15}/>
 									</Link>
-									<div onClick={handleNav}>
+									<div onClick={handleNav} className='animate-pulse'>
 										<AiOutlineArrowLeft />
 									</div>
 								</div>
 								<div className='border-b border-gray-300 my-4'>
-									<p className='w-[85%] md:w-[90%] py-4 text-[#cbe1f4] font-semi-bold'>Aspiring Software Engineer</p>
+									<p className='w-[85%] md:w-[90%] py-4 text-[#0072b1] tracking-widest font-semibold'>Miguel's Portfolio</p>
 								</div>
 							</div>
 							<div className='py-4 flex flex-col'>
@@ -101,22 +104,16 @@ const NavBar = () => {
 									</Link>
 								</ul>
 								<div className='pt-40'>
-									<p className='tracking-widest text-sm text-[#cbe1f4]'>Contact Me</p>
+									<p className='tracking-widest text-sm text-[#0072b1] font-semibold'>Contact Me</p>
 									<div className='flex items-center justify-around my-4 w-full sm:w-[80%]'>
 										<a href='https://www.linkedin.com/in/miguel-rodriguez-6a5991222/' target='_blank' rel='noreferrer'>
-											<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-200'>
-												<FaLinkedin />
-											</div>
+											<LinkedIn />
 										</a>
 										<a href='https://github.com/mlguels' target='_black' rel='noreferrer'>
-											<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-200'>
-												<FaGithub />
-											</div>
+											<Github />
 										</a>
 										<a href='@mrodandres@icloud.com'>
-											<div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-200'>
-												<AiOutlineMail/>
-											</div>
+											<Email />
 										</a>
 									</div>
 								</div>
