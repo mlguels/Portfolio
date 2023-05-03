@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const About = () => (
-	<main className='w-full md:h-screen p-2 flex items-center py-16'>
+	<main id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[#F5F5F5]'>
 		<header className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 			<div className='col-span-2'>
 				<p className='uppercase text-2xl tracking-widest text-[#cbe1f4] font-bold'>
