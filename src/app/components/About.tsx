@@ -4,14 +4,14 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const About = () => (
-	<main id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[#F5F5F5]'>
+	<main id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[url(/assets/s.svg)]'>
 		<header className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 			<div className='col-span-2'>
-				<p className='uppercase text-2xl tracking-widest text-[#cbe1f4] font-bold'>
+				<p className='uppercase text-2xl tracking-widest animate-pulse text-sky-500 font-bold'>
           About
 				</p>
 				<h2 className='py-4 font-bold'>Who I Am</h2>
-				<p className='py-2 text-gray-600 font-light'>
+				<p className='py-2 text-gray-600 font-medium bg-[#ffff]'>
             Hi there, I'm Miguel! I'm a web developer who got into coding just a year ago.
             My journey started with learning JavaScript as my first language, followed
             by the basics of HTML and CSS. I created my first landing page and shortly
@@ -20,7 +20,7 @@ const About = () => (
             about creating user-friendly and responsive web applications, and I'm
             constantly learning and exploring new technologies to improve my craft.
 				</p>
-				<p className='py-2 text-gray-600 font-light'>
+				<p className='py-2 text-gray-600 font-medium bg-[#ffff]'>
             When seeking a business degree, I wasn't entirely sure
             where it would take me. However, when I began to code I realized that my
             true passion lay in the field of software engineering. Despite having no prior experience
@@ -28,8 +28,8 @@ const About = () => (
             the basics of programming and gradually worked my way up. My main stack at the moment is
             working with Next.js, TypeScript and styling with Tailwind CSS.
 				</p>
-				<Link href='/'>
-					<p className='py-2 text-gray-600 underline cursor-pointer'>
+				<Link href='#projects'>
+					<p className='py-2 text-gray-600 underline cursor-pointer hover:animate-pulse'>
             Check out some of my latest projects.
 					</p>
 				</Link>
