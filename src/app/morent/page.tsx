@@ -8,7 +8,7 @@ export default function Morent() {
 			<header>
 				<title>Morent Case Study</title>
 			</header>
-			<div className='w-fit py-2 px-4 bg-[#cbe1f4] rounded-lg hover:bg-[#e0e6ec] cursor-pointer'>
+			<div className='w-fit py-2 px-4 bg-[#0EA5E9] rounded-lg hover:bg-[#e0e6ec] cursor-pointer animate-bounce'>
 				<Link href='/#projects'>
 					<div className='font-semibold'>Back</div>
 				</Link>
