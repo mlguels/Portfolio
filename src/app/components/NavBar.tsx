@@ -41,16 +41,16 @@ const NavBar = () => {
 						<div>
 							<ul className='hidden md:flex'>
 								<Link href='/'>
-									<li className='ml-10 text-sm uppercase hover:border-b-2'>Home</li>
+									<li className='ml-10 text-sm uppercase hover:border-b-2 font-light'>Home</li>
 								</Link>
 								<Link href='/#about'>
-									<li className='ml-10 text-sm uppercase hover:border-b-2'>About</li>
+									<li className='ml-10 text-sm uppercase hover:border-b-2 font-light'>About</li>
 								</Link>
 								<Link href='/#projects'>
-									<li className='ml-10 text-sm uppercase hover:border-b-2'>Projects</li>
+									<li className='ml-10 text-sm uppercase hover:border-b-2 font-light'>Projects</li>
 								</Link>
 								<Link href='/#contact'>
-									<li className='ml-10 text-sm uppercase hover:border-b-2'>Contact</li>
+									<li className='ml-10 text-sm uppercase hover:border-b-2 font-light'>Contact</li>
 								</Link>
 							</ul>
 							<div onClick={handleNav} className='md:hidden'>
@@ -85,22 +85,22 @@ const NavBar = () => {
 									<Link href='/'>
 										<li onClick={() => {
 											setIsDrawerOpen(false);
-										}} className='py-4 text-sm'>Home</li>
+										}} className='py-4 text-sm font-light'>Home</li>
 									</Link>
 									<Link href='/#about'>
 										<li onClick={() => {
 											setIsDrawerOpen(false);
-										}} className='py-4 text-sm'>About</li>
+										}} className='py-4 text-sm font-light'>About</li>
 									</Link>
 									<Link href='/#projects'>
 										<li onClick={() => {
 											setIsDrawerOpen(false);
-										}} className='py-4 text-sm'>Projects</li>
+										}} className='py-4 text-sm font-light'>Projects</li>
 									</Link>
 									<Link href='/#contact'>
 										<li onClick={() => {
 											setIsDrawerOpen(false);
-										}} className='py-4 text-sm'>Contact</li>
+										}} className='py-4 text-sm font-light'>Contact</li>
 									</Link>
 								</ul>
 								<div className='pt-40'>
@@ -112,7 +112,7 @@ const NavBar = () => {
 										<a href='https://github.com/mlguels' target='_black' rel='noreferrer'>
 											<Github />
 										</a>
-										<a href='@mrodandres@icloud.com'>
+										<a className='pt-2'>
 											<Email />
 										</a>
 									</div>

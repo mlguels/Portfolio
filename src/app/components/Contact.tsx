@@ -3,8 +3,6 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import {AiOutlineMail} from 'react-icons/ai';
-import {FaLinkedin, FaGithub} from 'react-icons/fa';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import {useForm, ValidationError} from '@formspree/react';
 import LinkedIn from './LinkedIn';
@@ -28,28 +26,29 @@ const Contact = () => {
 						<div className='lg:p-2 h-full'>
 							<img className='rounded-xl hover:scale-105 ease-in duration-300' src='/assets/ContactPic.webp' alt='/'/>
 							<div>
-								<div className='flex justify-center'>
+								{/* <div className='flex justify-center'>
 									<Image src='/assets/LightModeLogo.png' width={80} height={40} alt='logo'/>
-								</div>
+								</div> */}
 								<h2 className='py-2 text-[#0EA5E9]'>Miguel Rodriguez</h2>
 								<p className='font-thin'>Software Engineer</p>
 								<p className='py-4 font-thin'>I'm available for freelance or full-time positions.</p>
 							</div>
 							<div>
+								<div className='flex justify-center'>
+									<Image src='/assets/LightModeLogo.png' width={135} height={100} alt='Coder'/>
+								</div>
 								<p className='uppercase pt-8 font-bold'>Connect With Me</p>
 								<hr className='border-b border-gray-300 my-8'/>
-								<div className='flex justify-center'>
-									<Image src='/assets/contactbg.svg' width={125} height={100} alt='Coder'/>
-								</div>
-								<hr className='border-b border-gray-300 my-8'/>
-								<div className='flex items-center justify-center gap-5 p-5'>
+								<div className='flex items-center justify-center gap-5 p-5 bg-white'>
 									<a href='https://www.linkedin.com/in/miguel-rodriguez-6a5991222/' target='_blank' rel='noreferrer'>
 										<LinkedIn />
 									</a>
 									<a href='https://github.com/mlguels' target='_black' rel='noreferrer'>
 										<Github />
 									</a>
-									<Email />
+									<div className='pt-2'>
+										<Email />
+									</div>
 								</div>
 							</div>
 						</div>
@@ -96,7 +95,7 @@ const Contact = () => {
 										errors={state.errors}
 									/>
 								</div>
-								<button type='submit' disabled={state.submitting} className='shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#0EA5E9] to-[#cbe1f4] w-full p-4 text-white mt-4 animate-pulse'>Send Message</button>
+								<button type='submit' disabled={state.submitting} className='shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#0EA5E9] w-full p-4 text-white mt-4'>Send Message</button>
 							</form>
 						</div>
 					</div>
