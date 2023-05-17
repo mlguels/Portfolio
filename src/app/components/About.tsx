@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const About = () => (
-	<main id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[url(/assets/s.svg)]'>
+	<main id='about' className='w-full md:h-screen p-2 flex items-center py-16 bg-[url(/svg/skillsbg.svg)]'>
 		<header className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
 			<div className='col-span-2'>
 				<p className='uppercase text-2xl tracking-widest animate-pulse text-sky-500 font-bold'>
@@ -24,7 +24,7 @@ const About = () => (
             When seeking a business degree, I wasn't entirely sure
             where it would take me. However, when I began to code I realized that my
             true passion lay in the field of software engineering. Despite having no prior experience
-            in coding, I was determine to learn and develop my skills. I started teaching myself
+            in coding, I was determined to learn and develop my skills. I started teaching myself
             the basics of programming and gradually worked my way up. My main stack at the moment is
             working with Next.js, TypeScript and styling with Tailwind CSS.
 				</p>
