@@ -7,7 +7,7 @@ import Github from './Github';
 import Email from './Email';
 
 const Main = () => (
-	<main id='home' className=''>
+	<main id='home' className='bg-[url(/svg/s.svg)]'>
 		<div className='w-full h-screen text-center'>
 			<div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
 				<section>

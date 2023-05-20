@@ -38,7 +38,10 @@ export default function Morent() {
 					<div>
 						<div className='font-bold'>Live</div>
 						<div className='text-sm mt-4 underline text-blue-500 font-light'>
-							<a href='https://cohort3-jupiter-car-rent.vercel.app/' target='_blank' rel='noreferrer'>View Site</a>
+							<div>
+								<a href='https://cohort3-jupiter-car-rent.vercel.app/' target='_blank' rel='noreferrer'>View Site</a>
+							</div>
+							<a href='https://github.com/JavaScript-Mastery-PRO/Cohort3_Jupiter_CarRent' target='_blank' rel='noreferrer'>Github Repo</a>
 						</div>
 					</div>
 				</div>
