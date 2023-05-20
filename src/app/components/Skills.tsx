@@ -19,7 +19,7 @@ const Skills = () => (
 			</div>
 			<div className='flex flex-col gap-6'>
 				<SkillsSection imageUrl='/assets/css.png' name='CSS' />
-				<SkillsSection imageUrl='/assets/html.png' name='React' />
+				<SkillsSection imageUrl='/assets/html.png' name='HTML' />
 			</div>
 			<div className='flex flex-col gap-6'>
 				<SkillsSection imageUrl='/assets/figma.png' name='Figma' />
@@ -31,7 +31,7 @@ const Skills = () => (
 			</div>
 			<div className='flex flex-col gap-6'>
 				<SkillsSection imageUrl='/assets/nextjs.png' name='NextJS' />
-				<SkillsSection imageUrl='/assets/redux.png' name='Redux' />
+				<SkillsSection imageUrl='/assets/tailwind.png' name='Tailwind' />
 			</div>
 		</div>
 	</main>
