@@ -16,7 +16,7 @@ const Contact = () => {
 	}
 
 	return (
-		<main id='contact' className='w-full lg:h-screen'>
+		<main id='contact' className='w-full lg:h-screen bg-[url(/svg/s.svg)]'>
 			<div className='max-w-[1240px] m-auto px-4 py-16 w-full'>
 				<p className='text-xl tracking-widest uppercase text-[#0EA5E9] font-bold'>Contact</p>
 				<h2 className='py-4'>Get In Touch</h2>
@@ -26,9 +26,6 @@ const Contact = () => {
 						<div className='lg:p-2 h-full'>
 							<img className='rounded-xl hover:scale-105 ease-in duration-300' src='/assets/ContactPic.webp' alt='/'/>
 							<div>
-								{/* <div className='flex justify-center'>
-									<Image src='/assets/LightModeLogo.png' width={80} height={40} alt='logo'/>
-								</div> */}
 								<h2 className='py-2 text-[#0EA5E9]'>Miguel Rodriguez</h2>
 								<p className='font-thin'>Software Engineer</p>
 								<p className='py-4 font-thin'>I'm available for freelance or full-time positions.</p>
