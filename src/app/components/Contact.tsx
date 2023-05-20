@@ -22,7 +22,7 @@ const Contact = () => {
 				<h2 className='py-4'>Get In Touch</h2>
 				<div className='grid lg:grid-cols-5 gap-8'>
 					{/* left */}
-					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 bg-[url(/assets/skillsbg.svg)]'>
+					<div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
 						<div className='lg:p-2 h-full'>
 							<img className='rounded-xl hover:scale-105 ease-in duration-300' src='/assets/ContactPic.webp' alt='/'/>
 							<div>
@@ -52,7 +52,7 @@ const Contact = () => {
 					</div>
 
 					{/* right */}
-					<div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-[url(/assets/s.svg)]'>
+					<div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
 						<div className='p-4'>
 							<form onSubmit={handleSubmit}>
 								<div className='grid md:grid-cols-2 gap-4 w-full py-2'>
